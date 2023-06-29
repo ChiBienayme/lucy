@@ -1,4 +1,24 @@
 /* ========== Common ========== */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff5b2e;
+
+    --font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-family);
+    background-color: #fffaf5;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,19 +50,41 @@ button {
 .btn {
     --height: 56px;
 
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-width: 130px;
     height: var(--height);
     line-height: var(--height);
     border: 1px solid rgb(0, 9, 88, 0.7);
-    border-radius: 999px;
+    border-radius: 99px;
 
-    color: #000958;
-    text-align: center;
     font-weight: 600;
     font-size: 1.4rem;
+    text-align: center;
+    color: #000958;
 }
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
+
+.btn--primary {
+    border-radius: 31px;
+    color: #fff;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
