@@ -15,21 +15,40 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--font-family);
+    background-color: #fffaf5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Sora", sans-serif;
+/* Header */
+.header {
+    padding: 26px 0;
 }
 
-input,
-textarea,
-select,
-button {
-    font-size: inherit;
-    font-family: inherit;
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__link,
+.header-action__link {
+    padding: 8px 18px;
+    color: #5e6085;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.header-action__btn {
+    --height: 50px;
+
+    min-width: 118px;
+}
+
+.navbar__link:hover {
+    color: #000958;
+    text-shadow: 1px 0 0 currentColor;
 }

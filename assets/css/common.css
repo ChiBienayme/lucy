@@ -3,20 +3,46 @@ a {
     text-decoration: none;
 }
 
-/* .btn {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sora", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+    --height: 56px;
+
     display: inline-block;
-    min-width:;
-    padding: ;
-    line-height: ;
-    font-weight: ;
-    font-size: ;
-    text-align: center;
-    color: ;
-    background: ;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border: 1px solid rgb(0, 9, 88, 0.7);
     border-radius: 999px;
+
+    color: #000958;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .btn:hover {
-    opacity: 0.8;
-    cursor: pointer;
-} */
+    opacity: 0.9;
+}
