@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: ;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /* font-family: ; */
+}
+
