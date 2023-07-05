@@ -9,7 +9,8 @@
     text-align: center;
 }
 
-.service__desc {
+.service__desc,
+.staff__desc {
     color: #5e6085;
     font-size: 1.6rem;
     font-family: Sora, sans-serif;
